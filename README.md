@@ -30,4 +30,6 @@
 | Rust Code | Problem Link | Tags |
 | --------- | ------------ | ---- |
 | [football.rs](src/archive/900/football.rs) | https://codeforces.com/problemset/problem/96/A | `implementation`, `strings`, `*900` |
+| [hq9+.rs](src/archive/900/hq9+.rs) | https://codeforces.com/problemset/problem/133/A | `implementation`, `*900` |
+| [twins.rs](src/archive/900/twins.rs) | https://codeforces.com/problemset/problem/160/A | `greedy`, `sortings`, `*900` |
 
