@@ -14,6 +14,9 @@
 | [soldier_and_bananas.rs](src/archive/soldier_and_bananas.rs) | https://codeforces.com/problemset/problem/546/A | `brute force`, `implementation`, `math`, `*800` |
 | [stones_on_the_table.rs](src/archive/stones_on_the_table.rs) | https://codeforces.com/problemset/problem/266/A | `implementation`, `*800` |
 | [team.rs](src/archive/team.rs) | https://codeforces.com/problemset/problem/231/A | `brute force`, `greedy`, `*800` |
+| [tram.rs](src/archive/tram.rs) | https://codeforces.com/problemset/problem/116/A | `implementation`, `*800` |
 | [watermelon.rs](src/archive/watermelon.rs) | https://codeforces.com/problemset/problem/4/A | `brute force`, `math`, `*800` |
 | [way_too_long_words.rs](src/archive/way_too_long_words.rs) | https://codeforces.com/problemset/problem/71/A | `strings`, `*800` |
+| [word.rs](src/archive/word.rs) | https://codeforces.com/problemset/problem/59/A | `implementation`, `strings`, `*800` |
 | [word_capitalization.rs](src/archive/word_capitalization.rs) | https://codeforces.com/problemset/problem/281/A | `implementation`, `strings`, `*800` |
+| [wrong_subtraction.rs](src/archive/wrong_subtraction.rs) | https://codeforces.com/problemset/problem/977/A | `implementation`, `*800` |
