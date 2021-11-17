@@ -29,7 +29,12 @@
 ## Difficulty: 900
 | Rust Code | Problem Link | Tags |
 | --------- | ------------ | ---- |
+| [dubstep.rs](src/archive/900/dubstep.rs) | https://codeforces.com/problemset/problem/208/A | `strings`, `*900` |
+| [even_odds.rs](src/archive/900/even_odds.rs) | https://codeforces.com/problemset/problem/318/A | `math`, `*900` |
 | [football.rs](src/archive/900/football.rs) | https://codeforces.com/problemset/problem/96/A | `implementation`, `strings`, `*900` |
+| [gravity_flip.rs](src/archive/900/gravity_flip.rs) | https://codeforces.com/problemset/problem/405/A | `greedy`, `implementation`, `sortings`, `*900` |
 | [hq9+.rs](src/archive/900/hq9+.rs) | https://codeforces.com/problemset/problem/133/A | `implementation`, `*900` |
+| [kefa_and_first_steps.rs](src/archive/900/kefa_and_first_steps.rs) | https://codeforces.com/problemset/problem/580/A | `brute force`, `dp`, `implementation`, `*900` |
+| [puzzles.rs](src/archive/900/puzzles.rs) | https://codeforces.com/problemset/problem/337/A | `greedy`, `*900` |
 | [twins.rs](src/archive/900/twins.rs) | https://codeforces.com/problemset/problem/160/A | `greedy`, `sortings`, `*900` |
 
