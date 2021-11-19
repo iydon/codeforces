@@ -1,4 +1,9 @@
 # [Codeforces](https://codeforces.com/)
+## Difficulty: 1500
+| Rust Code | Problem Link | Tags |
+| --------- | ------------ | ---- |
+| [boredom.rs](src/archive/1500/boredom.rs) | https://codeforces.com/problemset/problem/455/A | `dp`, `*1500` |
+
 ## Difficulty: 800
 | Rust Code | Problem Link | Tags |
 | --------- | ------------ | ---- |
@@ -29,11 +34,14 @@
 ## Difficulty: 900
 | Rust Code | Problem Link | Tags |
 | --------- | ------------ | ---- |
+| [candies.rs](src/archive/900/candies.rs) | https://codeforces.com/problemset/problem/1343/A | `brute force`, `math`, `*900` |
 | [dubstep.rs](src/archive/900/dubstep.rs) | https://codeforces.com/problemset/problem/208/A | `strings`, `*900` |
 | [even_odds.rs](src/archive/900/even_odds.rs) | https://codeforces.com/problemset/problem/318/A | `math`, `*900` |
 | [football.rs](src/archive/900/football.rs) | https://codeforces.com/problemset/problem/96/A | `implementation`, `strings`, `*900` |
+| [game_with_sticks.rs](src/archive/900/game_with_sticks.rs) | https://codeforces.com/problemset/problem/451/A | `implementation`, `*900` |
 | [gravity_flip.rs](src/archive/900/gravity_flip.rs) | https://codeforces.com/problemset/problem/405/A | `greedy`, `implementation`, `sortings`, `*900` |
 | [hq9+.rs](src/archive/900/hq9+.rs) | https://codeforces.com/problemset/problem/133/A | `implementation`, `*900` |
+| [ilya_and_bank_account.rs](src/archive/900/ilya_and_bank_account.rs) | https://codeforces.com/problemset/problem/313/A | `implementation`, `number theory`, `*900` |
 | [kefa_and_first_steps.rs](src/archive/900/kefa_and_first_steps.rs) | https://codeforces.com/problemset/problem/580/A | `brute force`, `dp`, `implementation`, `*900` |
 | [puzzles.rs](src/archive/900/puzzles.rs) | https://codeforces.com/problemset/problem/337/A | `greedy`, `*900` |
 | [twins.rs](src/archive/900/twins.rs) | https://codeforces.com/problemset/problem/160/A | `greedy`, `sortings`, `*900` |
