@@ -1,9 +1,4 @@
 # [Codeforces](https://codeforces.com/)
-## Difficulty: 1500
-| Rust Code | Problem Link | Tags |
-| --------- | ------------ | ---- |
-| [boredom.rs](src/archive/1500/boredom.rs) | https://codeforces.com/problemset/problem/455/A | `dp`, `*1500` |
-
 ## Difficulty: 800
 | Rust Code | Problem Link | Tags |
 | --------- | ------------ | ---- |
@@ -52,3 +47,7 @@
 | [twins.rs](src/archive/900/twins.rs) | https://codeforces.com/problemset/problem/160/A | `greedy`, `sortings`, `*900` |
 | [vasya_and_socks.rs](src/archive/900/vasya_and_socks.rs) | https://codeforces.com/problemset/problem/460/A | `brute force`, `implementation`, `math`, `*900` |
 
+## Difficulty: 1500
+| Rust Code | Problem Link | Tags |
+| --------- | ------------ | ---- |
+| [boredom.rs](src/archive/1500/boredom.rs) | https://codeforces.com/problemset/problem/455/A | `dp`, `*1500` |

@@ -1,25 +1,40 @@
+import json
 import pathlib
 import requests
 
 from bs4 import BeautifulSoup
 
 
+def extract(path: pathlib.Path) -> dict:
+    with open(path, 'r') as f:
+        link = f.readline().lstrip('//').strip()
+        soup = BeautifulSoup(requests.get(link).content, 'lxml')
+        tags = tuple(
+            tag.text.strip()
+            for tag in soup.find_all(class_='tag-box')
+        )
+        return {
+            'name': path.name,
+            'path': path.relative_to(root).as_posix(),
+            'link': link,
+            'tags': tags,
+        }
+
+
 root = pathlib.Path(__file__).parent
+cache_path = root / 'cache.json'
+cache = json.loads(cache_path.read_text()) if cache_path.exists() else dict()
 readme = '# [Codeforces](https://codeforces.com/)\n'
-for directory in (root/'src'/'archive').iterdir():
+for directory in sorted((root/'src'/'archive').iterdir(), key=lambda p: int(p.name)):
     readme += f'## Difficulty: {directory.name}\n' \
         '| Rust Code | Problem Link | Tags |\n' \
         '| --------- | ------------ | ---- |\n'
     for path in directory.iterdir():
-        with open(path, 'r') as f:
-            url = f.readline().lstrip('//').strip()
-            soup = BeautifulSoup(requests.get(url).content, 'lxml')
-            tags = tuple(
-                f'`{tag.text.strip()}`'
-                for tag in soup.find_all(class_='tag-box')
-            )
-            readme += f'| [{path.name}]({path.relative_to(root).as_posix()}) ' \
-                f'| {url} | {", ".join(tags)} |\n'
-            print(path)
+        key = path.relative_to(root).relative_to('src', 'archive').as_posix()
+        if key not in cache:
+            cache[key] = extract(path)
+        readme += f'| [{cache[key]["name"]}]({cache[key]["path"]}) ' \
+            f'| {cache[key]["link"]} | `{"`, `".join(cache[key]["tags"])}` |\n'
     readme += '\n'
-(root/'README.md').write_text(readme)
+cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=4))
+(root/'README.md').write_text(readme.rstrip()+'\n')
