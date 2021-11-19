@@ -35,6 +35,7 @@
 | Rust Code | Problem Link | Tags |
 | --------- | ------------ | ---- |
 | [candies.rs](src/archive/900/candies.rs) | https://codeforces.com/problemset/problem/1343/A | `brute force`, `math`, `*900` |
+| [construct_the_string.rs](src/archive/900/construct_the_string.rs) | https://codeforces.com/problemset/problem/1335/B | `constructive algorithms`, `*900` |
 | [dubstep.rs](src/archive/900/dubstep.rs) | https://codeforces.com/problemset/problem/208/A | `strings`, `*900` |
 | [even_odds.rs](src/archive/900/even_odds.rs) | https://codeforces.com/problemset/problem/318/A | `math`, `*900` |
 | [football.rs](src/archive/900/football.rs) | https://codeforces.com/problemset/problem/96/A | `implementation`, `strings`, `*900` |
@@ -43,6 +44,11 @@
 | [hq9+.rs](src/archive/900/hq9+.rs) | https://codeforces.com/problemset/problem/133/A | `implementation`, `*900` |
 | [ilya_and_bank_account.rs](src/archive/900/ilya_and_bank_account.rs) | https://codeforces.com/problemset/problem/313/A | `implementation`, `number theory`, `*900` |
 | [kefa_and_first_steps.rs](src/archive/900/kefa_and_first_steps.rs) | https://codeforces.com/problemset/problem/580/A | `brute force`, `dp`, `implementation`, `*900` |
+| [multiply_by_2_divide_by_6.rs](src/archive/900/multiply_by_2_divide_by_6.rs) | https://codeforces.com/problemset/problem/1374/B | `math`, `*900` |
+| [new_years_number.rs](src/archive/900/new_years_number.rs) | https://codeforces.com/problemset/problem/1475/B | `brute force`, `dp`, `math`, `*900` |
+| [odd_divisor.rs](src/archive/900/odd_divisor.rs) | https://codeforces.com/problemset/problem/1475/A | `math`, `number theory`, `*900` |
 | [puzzles.rs](src/archive/900/puzzles.rs) | https://codeforces.com/problemset/problem/337/A | `greedy`, `*900` |
+| [sale.rs](src/archive/900/sale.rs) | https://codeforces.com/problemset/problem/34/B | `greedy`, `sortings`, `*900` |
 | [twins.rs](src/archive/900/twins.rs) | https://codeforces.com/problemset/problem/160/A | `greedy`, `sortings`, `*900` |
+| [vasya_and_socks.rs](src/archive/900/vasya_and_socks.rs) | https://codeforces.com/problemset/problem/460/A | `brute force`, `implementation`, `math`, `*900` |
 
