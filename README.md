@@ -53,6 +53,19 @@
 | [twins.rs](src/archive/900/twins.rs) | https://codeforces.com/problemset/problem/160/A | `greedy`, `sortings`, `*900` |
 | [vasya_and_socks.rs](src/archive/900/vasya_and_socks.rs) | https://codeforces.com/problemset/problem/460/A | `brute force`, `implementation`, `math`, `*900` |
 
+## Difficulty: 1000
+| Rust Code | Problem Link | Tags |
+| --------- | ------------ | ---- |
+| [caps_lock.rs](src/archive/1000/caps_lock.rs) | https://codeforces.com/problemset/problem/131/A | `implementation`, `strings`, `*1000` |
+| [chat_room.rs](src/archive/1000/chat_room.rs) | https://codeforces.com/problemset/problem/58/A | `greedy`, `strings`, `*1000` |
+| [dragons.rs](src/archive/1000/dragons.rs) | https://codeforces.com/problemset/problem/230/A | `greedy`, `sortings`, `*1000` |
+| [expression.rs](src/archive/1000/expression.rs) | https://codeforces.com/problemset/problem/479/A | `brute force`, `math`, `*1000` |
+| [lucky_division.rs](src/archive/1000/lucky_division.rs) | https://codeforces.com/problemset/problem/122/A | `brute force`, `number theory`, `*1000` |
+| [string_task.rs](src/archive/1000/string_task.rs) | https://codeforces.com/problemset/page/7?order=BY_RATING_ASC | `` |
+| [theatre_square.rs](src/archive/1000/theatre_square.rs) | https://codeforces.com/problemset/problem/1/A | `math`, `*1000` |
+| [xenia_and_ringroad.rs](src/archive/1000/xenia_and_ringroad.rs) | https://codeforces.com/problemset/problem/339/B | `implementation`, `*1000` |
+| [young_physicist.rs](src/archive/1000/young_physicist.rs) | https://codeforces.com/problemset/problem/69/A | `implementation`, `math`, `*1000` |
+
 ## Difficulty: 1500
 | Rust Code | Problem Link | Tags |
 | --------- | ------------ | ---- |
