@@ -27,13 +27,13 @@ cache = json.loads(cache_path.read_text()) if cache_path.exists() else dict()
 readme = '# [Codeforces](https://codeforces.com/)\n'
 for directory in sorted((root/'src'/'archive').iterdir(), key=lambda p: int(p.name)):
     readme += f'## Difficulty: {directory.name}\n' \
-        '| Rust Code | Problem Link | Tags |\n' \
-        '| --------- | ------------ | ---- |\n'
-    for path in directory.iterdir():
+        '| ith | Rust Code | Problem Link | Tags |\n' \
+        '| --- | --------- | ------------ | ---- |\n'
+    for ith, path in enumerate(directory.iterdir()):
         key = path.relative_to(root).relative_to('src', 'archive').as_posix()
         if key not in cache:
             cache[key] = extract(path)
-        readme += f'| [{cache[key]["name"]}]({cache[key]["path"]}) ' \
+        readme += f'| {ith+1} | [{cache[key]["name"]}]({cache[key]["path"]}) ' \
             f'| {cache[key]["link"]} | `{"`, `".join(cache[key]["tags"])}` |\n'
     readme += '\n'
 cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=4))
