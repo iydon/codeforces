@@ -1,4 +1,4 @@
-// https://codeforces.com/problemset/page/7?order=BY_RATING_ASC
+// https://codeforces.com/problemset/problem/118/A
 mod input {
     pub fn raw() -> String {
         let mut line = String::new();
