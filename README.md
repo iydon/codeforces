@@ -29,17 +29,23 @@
 ## Difficulty: 900
 | Rust Code | Problem Link | Tags |
 | --------- | ------------ | ---- |
+| [business_trip.rs](src/archive/900/business_trip.rs) | https://codeforces.com/problemset/problem/149/A | `greedy`, `implementation`, `sortings`, `*900` |
 | [candies.rs](src/archive/900/candies.rs) | https://codeforces.com/problemset/problem/1343/A | `brute force`, `math`, `*900` |
+| [case_of_the_zeros_and_ones.rs](src/archive/900/case_of_the_zeros_and_ones.rs) | https://codeforces.com/problemset/problem/556/A | `greedy`, `*900` |
 | [construct_the_string.rs](src/archive/900/construct_the_string.rs) | https://codeforces.com/problemset/problem/1335/B | `constructive algorithms`, `*900` |
 | [dubstep.rs](src/archive/900/dubstep.rs) | https://codeforces.com/problemset/problem/208/A | `strings`, `*900` |
 | [even_odds.rs](src/archive/900/even_odds.rs) | https://codeforces.com/problemset/problem/318/A | `math`, `*900` |
+| [filling_diamonds.rs](src/archive/900/filling_diamonds.rs) | https://codeforces.com/problemset/problem/1339/A | `brute force`, `dp`, `implementation`, `math`, `*900` |
 | [football.rs](src/archive/900/football.rs) | https://codeforces.com/problemset/problem/96/A | `implementation`, `strings`, `*900` |
 | [game_with_sticks.rs](src/archive/900/game_with_sticks.rs) | https://codeforces.com/problemset/problem/451/A | `implementation`, `*900` |
 | [gravity_flip.rs](src/archive/900/gravity_flip.rs) | https://codeforces.com/problemset/problem/405/A | `greedy`, `implementation`, `sortings`, `*900` |
 | [hq9+.rs](src/archive/900/hq9+.rs) | https://codeforces.com/problemset/problem/133/A | `implementation`, `*900` |
 | [ilya_and_bank_account.rs](src/archive/900/ilya_and_bank_account.rs) | https://codeforces.com/problemset/problem/313/A | `implementation`, `number theory`, `*900` |
+| [kana_and_dragon_quest_game.rs](src/archive/900/kana_and_dragon_quest_game.rs) | https://codeforces.com/problemset/problem/1337/B | `greedy`, `implementation`, `math`, `*900` |
 | [kefa_and_first_steps.rs](src/archive/900/kefa_and_first_steps.rs) | https://codeforces.com/problemset/problem/580/A | `brute force`, `dp`, `implementation`, `*900` |
+| [keyboard.rs](src/archive/900/keyboard.rs) | https://codeforces.com/problemset/problem/474/A | `implementation`, `*900` |
 | [multiply_by_2_divide_by_6.rs](src/archive/900/multiply_by_2_divide_by_6.rs) | https://codeforces.com/problemset/problem/1374/B | `math`, `*900` |
+| [nastya_and_rice.rs](src/archive/900/nastya_and_rice.rs) | https://codeforces.com/problemset/problem/1341/A | `math`, `*900` |
 | [new_years_number.rs](src/archive/900/new_years_number.rs) | https://codeforces.com/problemset/problem/1475/B | `brute force`, `dp`, `math`, `*900` |
 | [odd_divisor.rs](src/archive/900/odd_divisor.rs) | https://codeforces.com/problemset/problem/1475/A | `math`, `number theory`, `*900` |
 | [puzzles.rs](src/archive/900/puzzles.rs) | https://codeforces.com/problemset/problem/337/A | `greedy`, `*900` |
