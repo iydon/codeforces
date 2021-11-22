@@ -60,11 +60,18 @@
 | 2 | [chat_room.rs](src/archive/1000/chat_room.rs) | https://codeforces.com/problemset/problem/58/A | `greedy`, `strings`, `*1000` |
 | 3 | [dragons.rs](src/archive/1000/dragons.rs) | https://codeforces.com/problemset/problem/230/A | `greedy`, `sortings`, `*1000` |
 | 4 | [expression.rs](src/archive/1000/expression.rs) | https://codeforces.com/problemset/problem/479/A | `brute force`, `math`, `*1000` |
-| 5 | [lucky_division.rs](src/archive/1000/lucky_division.rs) | https://codeforces.com/problemset/problem/122/A | `brute force`, `number theory`, `*1000` |
-| 6 | [string_task.rs](src/archive/1000/string_task.rs) | https://codeforces.com/problemset/problem/118/A | `implementation`, `strings`, `*1000` |
-| 7 | [theatre_square.rs](src/archive/1000/theatre_square.rs) | https://codeforces.com/problemset/problem/1/A | `math`, `*1000` |
-| 8 | [xenia_and_ringroad.rs](src/archive/1000/xenia_and_ringroad.rs) | https://codeforces.com/problemset/problem/339/B | `implementation`, `*1000` |
-| 9 | [young_physicist.rs](src/archive/1000/young_physicist.rs) | https://codeforces.com/problemset/problem/69/A | `implementation`, `math`, `*1000` |
+| 5 | [football.rs](src/archive/1000/football.rs) | https://codeforces.com/problemset/problem/43/A | `strings`, `*1000` |
+| 6 | [lucky_division.rs](src/archive/1000/lucky_division.rs) | https://codeforces.com/problemset/problem/122/A | `brute force`, `number theory`, `*1000` |
+| 7 | [move_brackets.rs](src/archive/1000/move_brackets.rs) | https://codeforces.com/problemset/problem/1374/C | `greedy`, `strings`, `*1000` |
+| 8 | [new_year_candles.rs](src/archive/1000/new_year_candles.rs) | https://codeforces.com/problemset/problem/379/A | `implementation`, `*1000` |
+| 9 | [new_year_transportation.rs](src/archive/1000/new_year_transportation.rs) | https://codeforces.com/problemset/problem/500/A | `dfs and similar`, `graphs`, `implementation`, `*1000` |
+| 10 | [olesya_and_rodion.rs](src/archive/1000/olesya_and_rodion.rs) | https://codeforces.com/problemset/problem/584/A | `math`, `*1000` |
+| 11 | [raising_bacteria.rs](src/archive/1000/raising_bacteria.rs) | https://codeforces.com/problemset/problem/579/A | `bitmasks`, `*1000` |
+| 12 | [road_to_zero.rs](src/archive/1000/road_to_zero.rs) | https://codeforces.com/problemset/problem/1342/A | `greedy`, `math`, `*1000` |
+| 13 | [string_task.rs](src/archive/1000/string_task.rs) | https://codeforces.com/problemset/problem/118/A | `implementation`, `strings`, `*1000` |
+| 14 | [theatre_square.rs](src/archive/1000/theatre_square.rs) | https://codeforces.com/problemset/problem/1/A | `math`, `*1000` |
+| 15 | [xenia_and_ringroad.rs](src/archive/1000/xenia_and_ringroad.rs) | https://codeforces.com/problemset/problem/339/B | `implementation`, `*1000` |
+| 16 | [young_physicist.rs](src/archive/1000/young_physicist.rs) | https://codeforces.com/problemset/problem/69/A | `implementation`, `math`, `*1000` |
 
 ## Difficulty: 1500
 | ith | Rust Code | Problem Link | Tags |
