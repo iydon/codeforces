@@ -1,5 +1,8 @@
 # [Codeforces](https://codeforces.com/)
-## Difficulty: 800
+## Difficulty
+<details>
+<summary>800</summary>
+
 | ith | Rust Code | Problem Link | Tags |
 | --- | --------- | ------------ | ---- |
 | 1 | [anton_and_danik.rs](src/archive/800/anton_and_danik.rs) | https://codeforces.com/problemset/problem/734/A | `implementation`, `strings`, `*800` |
@@ -26,7 +29,12 @@
 | 22 | [word_capitalization.rs](src/archive/800/word_capitalization.rs) | https://codeforces.com/problemset/problem/281/A | `implementation`, `strings`, `*800` |
 | 23 | [wrong_subtraction.rs](src/archive/800/wrong_subtraction.rs) | https://codeforces.com/problemset/problem/977/A | `implementation`, `*800` |
 
-## Difficulty: 900
+</details>
+
+
+<details>
+<summary>900</summary>
+
 | ith | Rust Code | Problem Link | Tags |
 | --- | --------- | ------------ | ---- |
 | 1 | [business_trip.rs](src/archive/900/business_trip.rs) | https://codeforces.com/problemset/problem/149/A | `greedy`, `implementation`, `sortings`, `*900` |
@@ -53,7 +61,12 @@
 | 22 | [twins.rs](src/archive/900/twins.rs) | https://codeforces.com/problemset/problem/160/A | `greedy`, `sortings`, `*900` |
 | 23 | [vasya_and_socks.rs](src/archive/900/vasya_and_socks.rs) | https://codeforces.com/problemset/problem/460/A | `brute force`, `implementation`, `math`, `*900` |
 
-## Difficulty: 1000
+</details>
+
+
+<details>
+<summary>1000</summary>
+
 | ith | Rust Code | Problem Link | Tags |
 | --- | --------- | ------------ | ---- |
 | 1 | [arpas_hard_exam_and_mehrdads_naive_cheat.rs](src/archive/1000/arpas_hard_exam_and_mehrdads_naive_cheat.rs) | https://codeforces.com/problemset/problem/742/A | `implementation`, `math`, `number theory`, `*1000` |
@@ -80,7 +93,14 @@
 | 22 | [xenia_and_ringroad.rs](src/archive/1000/xenia_and_ringroad.rs) | https://codeforces.com/problemset/problem/339/B | `implementation`, `*1000` |
 | 23 | [young_physicist.rs](src/archive/1000/young_physicist.rs) | https://codeforces.com/problemset/problem/69/A | `implementation`, `math`, `*1000` |
 
-## Difficulty: 1500
+</details>
+
+
+<details>
+<summary>1500</summary>
+
 | ith | Rust Code | Problem Link | Tags |
 | --- | --------- | ------------ | ---- |
 | 1 | [boredom.rs](src/archive/1500/boredom.rs) | https://codeforces.com/problemset/problem/455/A | `dp`, `*1500` |
+
+</details>

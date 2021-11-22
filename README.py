@@ -24,9 +24,9 @@ def extract(path: pathlib.Path) -> dict:
 root = pathlib.Path(__file__).parent
 cache_path = root / 'cache.json'
 cache = json.loads(cache_path.read_text()) if cache_path.exists() else dict()
-readme = '# [Codeforces](https://codeforces.com/)\n'
+readme = '# [Codeforces](https://codeforces.com/)\n## Difficulty\n'
 for directory in sorted((root/'src'/'archive').iterdir(), key=lambda p: int(p.name)):
-    readme += f'## Difficulty: {directory.name}\n' \
+    readme += f'<details>\n<summary>{directory.name}</summary>\n\n' \
         '| ith | Rust Code | Problem Link | Tags |\n' \
         '| --- | --------- | ------------ | ---- |\n'
     for ith, path in enumerate(directory.iterdir()):
@@ -35,6 +35,6 @@ for directory in sorted((root/'src'/'archive').iterdir(), key=lambda p: int(p.na
             cache[key] = extract(path)
         readme += f'| {ith+1} | [{cache[key]["name"]}]({cache[key]["path"]}) ' \
             f'| {cache[key]["link"]} | `{"`, `".join(cache[key]["tags"])}` |\n'
-    readme += '\n'
+    readme += '\n</details>\n\n\n'
 cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=4))
 (root/'README.md').write_text(readme.rstrip()+'\n')
