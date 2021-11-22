@@ -97,6 +97,16 @@
 
 
 <details>
+<summary>1100</summary>
+
+| ith | Rust Code | Problem Link | Tags |
+| --- | --------- | ------------ | ---- |
+| 1 | [taxi.rs](src/archive/1100/taxi.rs) | https://codeforces.com/problemset/problem/158/B | `*special problem`, `greedy`, `implementation`, `*1100` |
+
+</details>
+
+
+<details>
 <summary>1500</summary>
 
 | ith | Rust Code | Problem Link | Tags |
