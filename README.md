@@ -101,7 +101,15 @@
 
 | ith | Rust Code | Problem Link | Tags |
 | --- | --------- | ------------ | ---- |
-| 1 | [taxi.rs](src/archive/1100/taxi.rs) | https://codeforces.com/problemset/problem/158/B | `*special problem`, `greedy`, `implementation`, `*1100` |
+| 1 | [a_and_b_and_compilation_errors.rs](src/archive/1100/a_and_b_and_compilation_errors.rs) | https://codeforces.com/problemset/problem/519/B | `data structures`, `implementation`, `sortings`, `*1100` |
+| 2 | [cinema_line.rs](src/archive/1100/cinema_line.rs) | https://codeforces.com/problemset/problem/349/A | `greedy`, `implementation`, `*1100` |
+| 3 | [fancy_fence.rs](src/archive/1100/fancy_fence.rs) | https://codeforces.com/problemset/problem/270/A | `geometry`, `implementation`, `math`, `*1100` |
+| 4 | [fence.rs](src/archive/1100/fence.rs) | https://codeforces.com/problemset/problem/363/B | `brute force`, `dp`, `*1100` |
+| 5 | [ilya_and_queries.rs](src/archive/1100/ilya_and_queries.rs) | https://codeforces.com/problemset/problem/313/B | `dp`, `implementation`, `*1100` |
+| 6 | [interesting_drink.rs](src/archive/1100/interesting_drink.rs) | https://codeforces.com/problemset/problem/706/B | `binary search`, `dp`, `implementation`, `*1100` |
+| 7 | [laptops.rs](src/archive/1100/laptops.rs) | https://codeforces.com/problemset/problem/456/A | `sortings`, `*1100` |
+| 8 | [sereja_and_suffixes.rs](src/archive/1100/sereja_and_suffixes.rs) | https://codeforces.com/problemset/problem/368/B | `data structures`, `dp`, `*1100` |
+| 9 | [taxi.rs](src/archive/1100/taxi.rs) | https://codeforces.com/problemset/problem/158/B | `*special problem`, `greedy`, `implementation`, `*1100` |
 
 </details>
 
