@@ -26,7 +26,7 @@ impl Problem {
         O: std::io::Write,
     {
         let mut input = Input::new(&mut stdin);
-        for _ in 0..input.scalar() {
+        for _ in 0..input.scalar::<u8>() {
             let ans = self.solve(input.scalar());
             match ans {
                 true => writeln!(stdout, "YES").unwrap(),
