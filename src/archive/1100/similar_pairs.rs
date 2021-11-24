@@ -1,4 +1,5 @@
-// https://codeforces.com/problemset/problem/467/B
+// https://codeforces.com/problemset/problem/1360/C
+// https://codeforces.com/blog/entry/67391
 pub struct Input<I: std::io::BufRead> {
     std: I,
     buffer: Vec<String>,
@@ -60,24 +61,14 @@ impl Problem {
         return Problem {};
     }
 
-    fn bitsum(&self, n: u8, mut x: u32) -> u8 {
-        let mut sum = 0;
-        for _ in 0..n {
-            sum += (x % 2) as u8;
-            x /= 2;
+    fn solve(&self, mut a: Vec<u8>) -> bool {
+        let parity: u8 = a.iter().map(|a| a % 2).sum();
+        if parity % 2 == 0 {
+            return true;
+        } else {
+            a.sort();
+            return a.windows(2).any(|ab| ab[1] == ab[0] + 1);
         }
-        return sum;
-    }
-
-    fn solve(&self, n: u8, m: u16, k: u8, xs: Vec<u32>) -> u16 {
-        let mut ans = 0;
-        let last = xs.last().unwrap();
-        for x in xs.iter().take(m as usize) {
-            if self.bitsum(n, x ^ last) <= k {
-                ans += 1;
-            }
-        }
-        return ans;
     }
 
     fn via_io<I, O>(self, mut stdin: I, mut stdout: O)
@@ -86,10 +77,14 @@ impl Problem {
         O: std::io::Write,
     {
         let mut input = Input::new(&mut stdin);
-        let (n, m, k) = (input.scalar(), input.scalar(), input.scalar());
-        let xs: Vec<u32> = input.vector(1 + m as usize);
-        let ans = self.solve(n, m, k, xs);
-        writeln!(stdout, "{}", ans).unwrap();
+        for _ in 0..input.scalar() {
+            let n = input.scalar();
+            let a: Vec<u8> = input.vector(n);
+            match self.solve(a) {
+                true => writeln!(stdout, "YES").unwrap(),
+                false => writeln!(stdout, "NO").unwrap(),
+            };
+        }
     }
 
     fn _test(input: &str) -> String {
@@ -104,12 +99,12 @@ impl Problem {
 mod test {
     #[test]
     fn case_1() {
-        assert_eq!(crate::Problem::_test("7 3 1\n8\n5\n111\n17\n"), "0\n");
+        assert_eq!(crate::Problem::_test("7\n4\n11 14 16 12\n2\n1 8\n4\n1 1 1 1\n4\n1 2 5 6\n2\n12 13\n6\n1 6 3 10 5 8\n6\n1 12 3 10 5 8\n"), "YES\nNO\nYES\nYES\nYES\nYES\nNO\n");
     }
 
     #[test]
     fn case_2() {
-        assert_eq!(crate::Problem::_test("3 3 3\n1\n2\n3\n4\n"), "3\n");
+        assert_eq!(crate::Problem::_test("1\n4\n1 1 2 5\n"), "YES\n");
     }
 }
 

@@ -103,16 +103,20 @@
 | --- | --------- | ------------ | ---- |
 | 1 | [a_and_b_and_compilation_errors.rs](src/archive/1100/a_and_b_and_compilation_errors.rs) | https://codeforces.com/problemset/problem/519/B | `data structures`, `implementation`, `sortings`, `*1100` |
 | 2 | [cinema_line.rs](src/archive/1100/cinema_line.rs) | https://codeforces.com/problemset/problem/349/A | `greedy`, `implementation`, `*1100` |
-| 3 | [fancy_fence.rs](src/archive/1100/fancy_fence.rs) | https://codeforces.com/problemset/problem/270/A | `geometry`, `implementation`, `math`, `*1100` |
-| 4 | [fedor_and_new_game.rs](src/archive/1100/fedor_and_new_game.rs) | https://codeforces.com/problemset/problem/467/B | `bitmasks`, `brute force`, `constructive algorithms`, `implementation`, `*1100` |
-| 5 | [fence.rs](src/archive/1100/fence.rs) | https://codeforces.com/problemset/problem/363/B | `brute force`, `dp`, `*1100` |
-| 6 | [ilya_and_queries.rs](src/archive/1100/ilya_and_queries.rs) | https://codeforces.com/problemset/problem/313/B | `dp`, `implementation`, `*1100` |
-| 7 | [interesting_drink.rs](src/archive/1100/interesting_drink.rs) | https://codeforces.com/problemset/problem/706/B | `binary search`, `dp`, `implementation`, `*1100` |
-| 8 | [laptops.rs](src/archive/1100/laptops.rs) | https://codeforces.com/problemset/problem/456/A | `sortings`, `*1100` |
-| 9 | [sereja_and_suffixes.rs](src/archive/1100/sereja_and_suffixes.rs) | https://codeforces.com/problemset/problem/368/B | `data structures`, `dp`, `*1100` |
-| 10 | [sum_of_odd_integers.rs](src/archive/1100/sum_of_odd_integers.rs) | https://codeforces.com/problemset/problem/1327/A | `math`, `*1100` |
-| 11 | [taxi.rs](src/archive/1100/taxi.rs) | https://codeforces.com/problemset/problem/158/B | `*special problem`, `greedy`, `implementation`, `*1100` |
-| 12 | [two_teams_composing.rs](src/archive/1100/two_teams_composing.rs) | https://codeforces.com/problemset/problem/1335/C | `binary search`, `greedy`, `implementation`, `sortings`, `*1100` |
+| 3 | [double_cola.rs](src/archive/1100/double_cola.rs) | https://codeforces.com/problemset/problem/82/A | `implementation`, `math`, `*1100` |
+| 4 | [fancy_fence.rs](src/archive/1100/fancy_fence.rs) | https://codeforces.com/problemset/problem/270/A | `geometry`, `implementation`, `math`, `*1100` |
+| 5 | [fedor_and_new_game.rs](src/archive/1100/fedor_and_new_game.rs) | https://codeforces.com/problemset/problem/467/B | `bitmasks`, `brute force`, `constructive algorithms`, `implementation`, `*1100` |
+| 6 | [fence.rs](src/archive/1100/fence.rs) | https://codeforces.com/problemset/problem/363/B | `brute force`, `dp`, `*1100` |
+| 7 | [ilya_and_queries.rs](src/archive/1100/ilya_and_queries.rs) | https://codeforces.com/problemset/problem/313/B | `dp`, `implementation`, `*1100` |
+| 8 | [interesting_drink.rs](src/archive/1100/interesting_drink.rs) | https://codeforces.com/problemset/problem/706/B | `binary search`, `dp`, `implementation`, `*1100` |
+| 9 | [laptops.rs](src/archive/1100/laptops.rs) | https://codeforces.com/problemset/problem/456/A | `sortings`, `*1100` |
+| 10 | [minimum_product.rs](src/archive/1100/minimum_product.rs) | https://codeforces.com/problemset/problem/1409/B | `brute force`, `greedy`, `math`, `*1100` |
+| 11 | [sereja_and_suffixes.rs](src/archive/1100/sereja_and_suffixes.rs) | https://codeforces.com/problemset/problem/368/B | `data structures`, `dp`, `*1100` |
+| 12 | [shovels_and_swords.rs](src/archive/1100/shovels_and_swords.rs) | https://codeforces.com/problemset/problem/1366/A | `binary search`, `greedy`, `math`, `*1100` |
+| 13 | [similar_pairs.rs](src/archive/1100/similar_pairs.rs) | https://codeforces.com/problemset/problem/1360/C | `constructive algorithms`, `graph matchings`, `greedy`, `sortings`, `*1100` |
+| 14 | [sum_of_odd_integers.rs](src/archive/1100/sum_of_odd_integers.rs) | https://codeforces.com/problemset/problem/1327/A | `math`, `*1100` |
+| 15 | [taxi.rs](src/archive/1100/taxi.rs) | https://codeforces.com/problemset/problem/158/B | `*special problem`, `greedy`, `implementation`, `*1100` |
+| 16 | [two_teams_composing.rs](src/archive/1100/two_teams_composing.rs) | https://codeforces.com/problemset/problem/1335/C | `binary search`, `greedy`, `implementation`, `sortings`, `*1100` |
 
 </details>
 

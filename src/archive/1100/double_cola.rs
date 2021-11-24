@@ -1,4 +1,4 @@
-// https://codeforces.com/problemset/problem/467/B
+// https://codeforces.com/problemset/problem/82/A
 pub struct Input<I: std::io::BufRead> {
     std: I,
     buffer: Vec<String>,
@@ -60,24 +60,11 @@ impl Problem {
         return Problem {};
     }
 
-    fn bitsum(&self, n: u8, mut x: u32) -> u8 {
-        let mut sum = 0;
-        for _ in 0..n {
-            sum += (x % 2) as u8;
-            x /= 2;
-        }
-        return sum;
-    }
-
-    fn solve(&self, n: u8, m: u16, k: u8, xs: Vec<u32>) -> u16 {
-        let mut ans = 0;
-        let last = xs.last().unwrap();
-        for x in xs.iter().take(m as usize) {
-            if self.bitsum(n, x ^ last) <= k {
-                ans += 1;
-            }
-        }
-        return ans;
+    fn solve(&self, n: u32) -> u32 {
+        // log2(n/5+1)-1 <= k < log2(n/5+1)
+        let k = (((n as f32) / 5.0 + 1.0).log2() - 1.0).ceil() as u32;
+        let min = 5 * (u32::pow(2, k) - 1) + 1;
+        return (n - min) / u32::pow(2, k);
     }
 
     fn via_io<I, O>(self, mut stdin: I, mut stdout: O)
@@ -86,10 +73,17 @@ impl Problem {
         O: std::io::Write,
     {
         let mut input = Input::new(&mut stdin);
-        let (n, m, k) = (input.scalar(), input.scalar(), input.scalar());
-        let xs: Vec<u32> = input.vector(1 + m as usize);
-        let ans = self.solve(n, m, k, xs);
-        writeln!(stdout, "{}", ans).unwrap();
+        let n: u32 = input.scalar();
+        let ans = self.solve(n);
+        let name = match ans {
+            0 => "Sheldon",
+            1 => "Leonard",
+            2 => "Penny",
+            3 => "Rajesh",
+            4 => "Howard",
+            _ => unreachable!(),
+        };
+        writeln!(stdout, "{}", name).unwrap();
     }
 
     fn _test(input: &str) -> String {
@@ -104,12 +98,17 @@ impl Problem {
 mod test {
     #[test]
     fn case_1() {
-        assert_eq!(crate::Problem::_test("7 3 1\n8\n5\n111\n17\n"), "0\n");
+        assert_eq!(crate::Problem::_test("1\n"), "Sheldon\n");
     }
 
     #[test]
     fn case_2() {
-        assert_eq!(crate::Problem::_test("3 3 3\n1\n2\n3\n4\n"), "3\n");
+        assert_eq!(crate::Problem::_test("6\n"), "Sheldon\n");
+    }
+
+    #[test]
+    fn case_3() {
+        assert_eq!(crate::Problem::_test("1802\n"), "Penny\n");
     }
 }
 

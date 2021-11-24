@@ -1,4 +1,4 @@
-// https://codeforces.com/problemset/problem/467/B
+// https://codeforces.com/problemset/problem/1366/A
 pub struct Input<I: std::io::BufRead> {
     std: I,
     buffer: Vec<String>,
@@ -60,24 +60,13 @@ impl Problem {
         return Problem {};
     }
 
-    fn bitsum(&self, n: u8, mut x: u32) -> u8 {
-        let mut sum = 0;
-        for _ in 0..n {
-            sum += (x % 2) as u8;
-            x /= 2;
-        }
-        return sum;
-    }
-
-    fn solve(&self, n: u8, m: u16, k: u8, xs: Vec<u32>) -> u16 {
-        let mut ans = 0;
-        let last = xs.last().unwrap();
-        for x in xs.iter().take(m as usize) {
-            if self.bitsum(n, x ^ last) <= k {
-                ans += 1;
-            }
-        }
-        return ans;
+    fn solve(&self, a: i32, b: i32) -> i32 {
+        return match (2 * a > b, 2 * b > a) {
+            (true, true) => (a + b) / 3,
+            (true, false) => b,
+            (false, true) => a,
+            (false, false) => 0,
+        };
     }
 
     fn via_io<I, O>(self, mut stdin: I, mut stdout: O)
@@ -86,10 +75,10 @@ impl Problem {
         O: std::io::Write,
     {
         let mut input = Input::new(&mut stdin);
-        let (n, m, k) = (input.scalar(), input.scalar(), input.scalar());
-        let xs: Vec<u32> = input.vector(1 + m as usize);
-        let ans = self.solve(n, m, k, xs);
-        writeln!(stdout, "{}", ans).unwrap();
+        for _ in 0..input.scalar::<u16>() {
+            let (a, b) = (input.scalar(), input.scalar());
+            writeln!(stdout, "{}", self.solve(a, b)).unwrap();
+        }
     }
 
     fn _test(input: &str) -> String {
@@ -104,12 +93,10 @@ impl Problem {
 mod test {
     #[test]
     fn case_1() {
-        assert_eq!(crate::Problem::_test("7 3 1\n8\n5\n111\n17\n"), "0\n");
-    }
-
-    #[test]
-    fn case_2() {
-        assert_eq!(crate::Problem::_test("3 3 3\n1\n2\n3\n4\n"), "3\n");
+        assert_eq!(
+            crate::Problem::_test("4\n4 4\n1000000000 0\n7 15\n8 7\n"),
+            "2\n0\n7\n5\n"
+        );
     }
 }
 
