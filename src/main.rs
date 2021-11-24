@@ -1,8 +1,57 @@
-// https://codeforces.com/problemset?order=BY_RATING_ASC
+#[allow(dead_code)]
 mod template;
+use template::input::Input;
 
-use template::input;
+struct Problem {
+    numbers: Vec<u8>,
+}
+
+impl Problem {
+    fn new() -> Self {
+        return Problem {
+            numbers: vec![
+                60, 90, 108, 120, 135, 140, 144, 150, 156, 160, 162, 165, 168, 170, 171, 172, 174,
+                175, 176, 177, 178, 179,
+            ],
+        };
+    }
+
+    fn solve(&self, a: u8) -> bool {
+        return self.numbers.contains(&a);
+    }
+
+    fn via_io<I, O>(self, mut stdin: I, mut stdout: O)
+    where
+        I: std::io::BufRead,
+        O: std::io::Write,
+    {
+        let mut input = Input::new(&mut stdin);
+        for _ in 0..input.scalar() {
+            let ans = self.solve(input.scalar());
+            match ans {
+                true => writeln!(stdout, "YES").unwrap(),
+                false => writeln!(stdout, "NO").unwrap(),
+            };
+        }
+    }
+
+    fn _test(input: &str) -> String {
+        let mut output = Vec::new();
+        let problem = Self::new();
+        problem.via_io(input.as_bytes(), &mut output);
+        return String::from_utf8(output).unwrap();
+    }
+}
+
+#[cfg(test)]
+mod test {
+    #[test]
+    fn case_1() {
+        assert_eq!(crate::Problem::_test("3\n30\n60\n90\n"), "NO\nYES\nYES\n");
+    }
+}
 
 fn main() {
-    println!("{}", input::text());
+    let (stdin, stdout) = (std::io::stdin(), std::io::stdout());
+    Problem::new().via_io(stdin.lock(), stdout.lock());
 }

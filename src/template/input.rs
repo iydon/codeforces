@@ -1,45 +1,54 @@
-use std::convert::TryInto;
-use std::io::Write;
-use std::str::FromStr;
-
-pub fn prompt(text: &str) -> () {
-    print!("{}", text);
-    std::io::stdout().flush().unwrap();
+// https://codeforces.com/blog/entry/67391
+pub struct Input<I: std::io::BufRead> {
+    std: I,
+    buffer: Vec<String>,
 }
 
-pub fn raw() -> String {
-    let mut line = String::new();
-    std::io::stdin().read_line(&mut line).unwrap();
-    return line;
-}
+impl<I: std::io::BufRead> Input<I> {
+    pub fn new(std: I) -> Self {
+        return Self {
+            std: std,
+            buffer: Vec::new(),
+        };
+    }
 
-pub fn text() -> String {
-    return raw().trim().to_string();
-}
+    pub fn raw(&mut self) -> String {
+        let mut string = String::new();
+        self.std.read_line(&mut string).unwrap();
+        return string;
+    }
 
-pub fn scalar<T>() -> T
-where
-    T: FromStr,
-{
-    return raw().trim().parse().unwrap_or_else(|_| panic!());
-}
+    pub fn text(&mut self) -> String {
+        return self.raw().trim().to_string();
+    }
 
-pub fn vector<T>(length: usize) -> Vec<T>
-where
-    T: FromStr,
-{
-    return raw()
-        .trim()
-        .split_whitespace()
-        .take(length)
-        .map(|s| s.parse().unwrap_or_else(|_| panic!()))
-        .collect();
-}
+    pub fn next(&mut self) -> String {
+        loop {
+            match self.buffer.pop() {
+                Some(token) => return token,
+                None => {
+                    self.buffer = self
+                        .raw()
+                        .split_whitespace()
+                        .rev()
+                        .map(String::from)
+                        .collect();
+                }
+            };
+        }
+    }
 
-pub fn array<T, const N: usize>() -> [T; N]
-where
-    T: FromStr,
-{
-    // https://stackoverflow.com/questions/29570607/is-there-a-good-way-to-convert-a-vect-to-an-array
-    return vector(N).try_into().unwrap_or_else(|_| panic!());
+    pub fn scalar<T>(&mut self) -> T
+    where
+        T: std::str::FromStr,
+    {
+        return self.next().parse().ok().unwrap();
+    }
+
+    pub fn vector<T>(&mut self, n: usize) -> Vec<T>
+    where
+        T: std::str::FromStr,
+    {
+        return (0..n).map(|_| self.scalar()).collect();
+    }
 }
