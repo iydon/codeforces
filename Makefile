@@ -4,12 +4,6 @@ PYTHON = python
 
 .PHONY: run test expand readme analysis
 
-analysis:
-	# https://github.com/XAMPPRocky/tokei
-	$(PYTHON) analysis.py > cache.rs
-	tokei *.py *.md Makefile cache.rs
-	rm cache.rs
-
 run:
 	$(CARGO) run --bin codeforces
 
@@ -21,3 +15,9 @@ expand:
 
 readme:
 	$(PYTHON) README.py
+
+analysis:
+	# https://github.com/XAMPPRocky/tokei
+	$(PYTHON) analysis.py > cache.rs
+	tokei *.py *.md Makefile cache.rs
+	rm cache.rs
