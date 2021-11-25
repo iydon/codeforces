@@ -129,6 +129,17 @@
 
 
 <details>
+<summary>1200</summary>
+
+| ith | Rust Code | Problem Link | Tags |
+| --- | --------- | ------------ | ---- |
+| 1 | [vanya_and_lanterns.rs](src/archive/1200/vanya_and_lanterns.rs) | https://codeforces.com/problemset/problem/492/B | `binary search`, `implementation`, `math`, `sortings`, `*1200` |
+| 2 | [xxxxx.rs](src/archive/1200/xxxxx.rs) | https://codeforces.com/problemset/problem/1364/A | `brute force`, `data structures`, `number theory`, `two pointers`, `*1200` |
+
+</details>
+
+
+<details>
 <summary>1500</summary>
 
 | ith | Rust Code | Problem Link | Tags |
