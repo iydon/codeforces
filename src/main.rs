@@ -53,5 +53,6 @@ mod test {
 
 fn main() {
     let (stdin, stdout) = (std::io::stdin(), std::io::stdout());
-    Problem::new().via_io(stdin.lock(), stdout.lock());
+    let output = std::io::BufWriter::new(stdout.lock());
+    Problem::new().via_io(stdin.lock(), output);
 }
