@@ -102,21 +102,28 @@
 | ith | Rust Code | Problem Link | Tags |
 | --- | --------- | ------------ | ---- |
 | 1 | [a_and_b_and_compilation_errors.rs](src/archive/1100/a_and_b_and_compilation_errors.rs) | https://codeforces.com/problemset/problem/519/B | `data structures`, `implementation`, `sortings`, `*1100` |
-| 2 | [cinema_line.rs](src/archive/1100/cinema_line.rs) | https://codeforces.com/problemset/problem/349/A | `greedy`, `implementation`, `*1100` |
-| 3 | [double_cola.rs](src/archive/1100/double_cola.rs) | https://codeforces.com/problemset/problem/82/A | `implementation`, `math`, `*1100` |
-| 4 | [fancy_fence.rs](src/archive/1100/fancy_fence.rs) | https://codeforces.com/problemset/problem/270/A | `geometry`, `implementation`, `math`, `*1100` |
-| 5 | [fedor_and_new_game.rs](src/archive/1100/fedor_and_new_game.rs) | https://codeforces.com/problemset/problem/467/B | `bitmasks`, `brute force`, `constructive algorithms`, `implementation`, `*1100` |
-| 6 | [fence.rs](src/archive/1100/fence.rs) | https://codeforces.com/problemset/problem/363/B | `brute force`, `dp`, `*1100` |
-| 7 | [ilya_and_queries.rs](src/archive/1100/ilya_and_queries.rs) | https://codeforces.com/problemset/problem/313/B | `dp`, `implementation`, `*1100` |
-| 8 | [interesting_drink.rs](src/archive/1100/interesting_drink.rs) | https://codeforces.com/problemset/problem/706/B | `binary search`, `dp`, `implementation`, `*1100` |
-| 9 | [laptops.rs](src/archive/1100/laptops.rs) | https://codeforces.com/problemset/problem/456/A | `sortings`, `*1100` |
-| 10 | [minimum_product.rs](src/archive/1100/minimum_product.rs) | https://codeforces.com/problemset/problem/1409/B | `brute force`, `greedy`, `math`, `*1100` |
-| 11 | [sereja_and_suffixes.rs](src/archive/1100/sereja_and_suffixes.rs) | https://codeforces.com/problemset/problem/368/B | `data structures`, `dp`, `*1100` |
-| 12 | [shovels_and_swords.rs](src/archive/1100/shovels_and_swords.rs) | https://codeforces.com/problemset/problem/1366/A | `binary search`, `greedy`, `math`, `*1100` |
-| 13 | [similar_pairs.rs](src/archive/1100/similar_pairs.rs) | https://codeforces.com/problemset/problem/1360/C | `constructive algorithms`, `graph matchings`, `greedy`, `sortings`, `*1100` |
-| 14 | [sum_of_odd_integers.rs](src/archive/1100/sum_of_odd_integers.rs) | https://codeforces.com/problemset/problem/1327/A | `math`, `*1100` |
-| 15 | [taxi.rs](src/archive/1100/taxi.rs) | https://codeforces.com/problemset/problem/158/B | `*special problem`, `greedy`, `implementation`, `*1100` |
-| 16 | [two_teams_composing.rs](src/archive/1100/two_teams_composing.rs) | https://codeforces.com/problemset/problem/1335/C | `binary search`, `greedy`, `implementation`, `sortings`, `*1100` |
+| 2 | [card_constructions.rs](src/archive/1100/card_constructions.rs) | https://codeforces.com/problemset/problem/1345/B | `binary search`, `brute force`, `dp`, `math`, `*1100` |
+| 3 | [cinema_line.rs](src/archive/1100/cinema_line.rs) | https://codeforces.com/problemset/problem/349/A | `greedy`, `implementation`, `*1100` |
+| 4 | [double_cola.rs](src/archive/1100/double_cola.rs) | https://codeforces.com/problemset/problem/82/A | `implementation`, `math`, `*1100` |
+| 5 | [fancy_fence.rs](src/archive/1100/fancy_fence.rs) | https://codeforces.com/problemset/problem/270/A | `geometry`, `implementation`, `math`, `*1100` |
+| 6 | [fedor_and_new_game.rs](src/archive/1100/fedor_and_new_game.rs) | https://codeforces.com/problemset/problem/467/B | `bitmasks`, `brute force`, `constructive algorithms`, `implementation`, `*1100` |
+| 7 | [fence.rs](src/archive/1100/fence.rs) | https://codeforces.com/problemset/problem/363/B | `brute force`, `dp`, `*1100` |
+| 8 | [frog_jumps.rs](src/archive/1100/frog_jumps.rs) | https://codeforces.com/problemset/problem/1324/C | `binary search`, `data structures`, `dfs and similar`, `greedy`, `implementation`, `*1100` |
+| 9 | [ilya_and_queries.rs](src/archive/1100/ilya_and_queries.rs) | https://codeforces.com/problemset/problem/313/B | `dp`, `implementation`, `*1100` |
+| 10 | [initial_bet.rs](src/archive/1100/initial_bet.rs) | https://codeforces.com/problemset/problem/478/A | `implementation`, `*1100` |
+| 11 | [interesting_drink.rs](src/archive/1100/interesting_drink.rs) | https://codeforces.com/problemset/problem/706/B | `binary search`, `dp`, `implementation`, `*1100` |
+| 12 | [laptops.rs](src/archive/1100/laptops.rs) | https://codeforces.com/problemset/problem/456/A | `sortings`, `*1100` |
+| 13 | [long_jumps.rs](src/archive/1100/long_jumps.rs) | https://codeforces.com/problemset/problem/1472/C | `dp`, `graphs`, `*1100` |
+| 14 | [matrix_game.rs](src/archive/1100/matrix_game.rs) | https://codeforces.com/problemset/problem/1365/A | `games`, `greedy`, `implementation`, `*1100` |
+| 15 | [middle_class.rs](src/archive/1100/middle_class.rs) | https://codeforces.com/problemset/problem/1334/B | `greedy`, `sortings`, `*1100` |
+| 16 | [minimum_product.rs](src/archive/1100/minimum_product.rs) | https://codeforces.com/problemset/problem/1409/B | `brute force`, `greedy`, `math`, `*1100` |
+| 17 | [sereja_and_suffixes.rs](src/archive/1100/sereja_and_suffixes.rs) | https://codeforces.com/problemset/problem/368/B | `data structures`, `dp`, `*1100` |
+| 18 | [shovels_and_swords.rs](src/archive/1100/shovels_and_swords.rs) | https://codeforces.com/problemset/problem/1366/A | `binary search`, `greedy`, `math`, `*1100` |
+| 19 | [similar_pairs.rs](src/archive/1100/similar_pairs.rs) | https://codeforces.com/problemset/problem/1360/C | `constructive algorithms`, `graph matchings`, `greedy`, `sortings`, `*1100` |
+| 20 | [sum_of_odd_integers.rs](src/archive/1100/sum_of_odd_integers.rs) | https://codeforces.com/problemset/problem/1327/A | `math`, `*1100` |
+| 21 | [taxi.rs](src/archive/1100/taxi.rs) | https://codeforces.com/problemset/problem/158/B | `*special problem`, `greedy`, `implementation`, `*1100` |
+| 22 | [two_teams_composing.rs](src/archive/1100/two_teams_composing.rs) | https://codeforces.com/problemset/problem/1335/C | `binary search`, `greedy`, `implementation`, `sortings`, `*1100` |
+| 23 | [yet_another_palindrome_problem.rs](src/archive/1100/yet_another_palindrome_problem.rs) | https://codeforces.com/problemset/problem/1324/B | `brute force`, `strings`, `*1100` |
 
 </details>
 
