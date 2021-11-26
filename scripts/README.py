@@ -21,7 +21,7 @@ def extract(path: pathlib.Path) -> dict:
         }
 
 
-root = pathlib.Path(__file__).parent
+root = pathlib.Path(__file__).parent.parent
 cache_path = root / 'cache.json'
 cache = json.loads(cache_path.read_text()) if cache_path.exists() else dict()
 readme = '# [Codeforces](https://codeforces.com/)\n## Difficulty\n'

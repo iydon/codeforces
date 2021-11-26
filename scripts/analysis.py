@@ -2,7 +2,7 @@ import pathlib as p
 
 
 code = set()
-root = p.Path('.')
+root = p.Path('..')
 code = set(
     sum(
         [

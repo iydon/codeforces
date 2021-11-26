@@ -14,10 +14,10 @@ expand:
 	$(CARGO) expand --bin codeforces > src/bin/expanded.rs
 
 readme:
-	$(PYTHON) README.py
+	$(PYTHON) scripts/README.py
 
 analysis:
 	# https://github.com/XAMPPRocky/tokei
-	$(PYTHON) analysis.py > cache.rs
-	tokei *.py *.md Makefile cache.rs
+	$(PYTHON) scripts/analysis.py > cache.rs
+	tokei scripts/*.py *.md Makefile cache.rs
 	rm cache.rs
