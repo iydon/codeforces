@@ -138,9 +138,10 @@
 | 3 | [cheap_travel.rs](src/archive/1200/cheap_travel.rs) | https://codeforces.com/problemset/problem/466/A | `implementation`, `*1200` |
 | 4 | [flipping_game.rs](src/archive/1200/flipping_game.rs) | https://codeforces.com/problemset/problem/327/A | `brute force`, `dp`, `implementation`, `*1200` |
 | 5 | [kth_not_divisible_by_n.rs](src/archive/1200/kth_not_divisible_by_n.rs) | https://codeforces.com/problemset/problem/1352/C | `binary search`, `math`, `*1200` |
-| 6 | [vanya_and_lanterns.rs](src/archive/1200/vanya_and_lanterns.rs) | https://codeforces.com/problemset/problem/492/B | `binary search`, `implementation`, `math`, `sortings`, `*1200` |
-| 7 | [worms.rs](src/archive/1200/worms.rs) | https://codeforces.com/problemset/problem/474/B | `binary search`, `implementation`, `*1200` |
-| 8 | [xxxxx.rs](src/archive/1200/xxxxx.rs) | https://codeforces.com/problemset/problem/1364/A | `brute force`, `data structures`, `number theory`, `two pointers`, `*1200` |
+| 6 | [odd_selection.rs](src/archive/1200/odd_selection.rs) | https://codeforces.com/problemset/problem/1363/A | `brute force`, `implementation`, `math`, `*1200` |
+| 7 | [vanya_and_lanterns.rs](src/archive/1200/vanya_and_lanterns.rs) | https://codeforces.com/problemset/problem/492/B | `binary search`, `implementation`, `math`, `sortings`, `*1200` |
+| 8 | [worms.rs](src/archive/1200/worms.rs) | https://codeforces.com/problemset/problem/474/B | `binary search`, `implementation`, `*1200` |
+| 9 | [xxxxx.rs](src/archive/1200/xxxxx.rs) | https://codeforces.com/problemset/problem/1364/A | `brute force`, `data structures`, `number theory`, `two pointers`, `*1200` |
 
 </details>
 
