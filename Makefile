@@ -24,3 +24,4 @@ analysis:
 
 init:
 	$(PYTHON) scripts/codeforces.py
+	make readme

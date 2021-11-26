@@ -45,12 +45,16 @@ class Codeforces:
 
 
 if __name__ == '__main__':
+    import os
+
     # https://codeforces.com/problemset/problem/270/A
     link = input('(Problem Link) >>> ')
     cf = Codeforces(link)
     directory = p.Path(__file__).parent.parent / 'src'
-    # main.rs
-    (directory / 'main.rs').write_text(cf.template)
+    # main.rs: fixme
+    path = directory / 'main.rs'
+    path.write_text(cf.template.replace('mod test {\n', 'mod test {'))
+    os.system(f'rustfmt {path}')
     # archive
     difficulty = directory / 'archive' / cf.difficulty
     difficulty.mkdir(parents=True, exist_ok=True)
