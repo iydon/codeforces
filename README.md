@@ -133,8 +133,14 @@
 
 | ith | Rust Code | Problem Link | Tags |
 | --- | --------- | ------------ | ---- |
-| 1 | [vanya_and_lanterns.rs](src/archive/1200/vanya_and_lanterns.rs) | https://codeforces.com/problemset/problem/492/B | `binary search`, `implementation`, `math`, `sortings`, `*1200` |
-| 2 | [xxxxx.rs](src/archive/1200/xxxxx.rs) | https://codeforces.com/problemset/problem/1364/A | `brute force`, `data structures`, `number theory`, `two pointers`, `*1200` |
+| 1 | [alternating_subsequence.rs](src/archive/1200/alternating_subsequence.rs) | https://codeforces.com/problemset/problem/1343/C | `dp`, `greedy`, `two pointers`, `*1200` |
+| 2 | [bersu_ball.rs](src/archive/1200/bersu_ball.rs) | https://codeforces.com/problemset/problem/489/B | `dfs and similar`, `dp`, `graph matchings`, `greedy`, `sortings`, `two pointers`, `*1200` |
+| 3 | [cheap_travel.rs](src/archive/1200/cheap_travel.rs) | https://codeforces.com/problemset/problem/466/A | `implementation`, `*1200` |
+| 4 | [flipping_game.rs](src/archive/1200/flipping_game.rs) | https://codeforces.com/problemset/problem/327/A | `brute force`, `dp`, `implementation`, `*1200` |
+| 5 | [kth_not_divisible_by_n.rs](src/archive/1200/kth_not_divisible_by_n.rs) | https://codeforces.com/problemset/problem/1352/C | `binary search`, `math`, `*1200` |
+| 6 | [vanya_and_lanterns.rs](src/archive/1200/vanya_and_lanterns.rs) | https://codeforces.com/problemset/problem/492/B | `binary search`, `implementation`, `math`, `sortings`, `*1200` |
+| 7 | [worms.rs](src/archive/1200/worms.rs) | https://codeforces.com/problemset/problem/474/B | `binary search`, `implementation`, `*1200` |
+| 8 | [xxxxx.rs](src/archive/1200/xxxxx.rs) | https://codeforces.com/problemset/problem/1364/A | `brute force`, `data structures`, `number theory`, `two pointers`, `*1200` |
 
 </details>
 
