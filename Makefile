@@ -2,7 +2,7 @@ CARGO = cargo
 PYTHON = python
 
 
-.PHONY: run test expand readme analysis
+.PHONY: run test expand readme analysis init
 
 run:
 	$(CARGO) run --bin codeforces
@@ -21,3 +21,6 @@ analysis:
 	$(PYTHON) scripts/analysis.py > cache.rs
 	tokei scripts/*.py *.md Makefile cache.rs
 	rm cache.rs
+
+init:
+	$(PYTHON) scripts/codeforces.py
