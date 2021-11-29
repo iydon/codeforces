@@ -139,9 +139,12 @@
 | 4 | [flipping_game.rs](src/archive/1200/flipping_game.rs) | https://codeforces.com/problemset/problem/327/A | `brute force`, `dp`, `implementation`, `*1200` |
 | 5 | [kth_not_divisible_by_n.rs](src/archive/1200/kth_not_divisible_by_n.rs) | https://codeforces.com/problemset/problem/1352/C | `binary search`, `math`, `*1200` |
 | 6 | [odd_selection.rs](src/archive/1200/odd_selection.rs) | https://codeforces.com/problemset/problem/1363/A | `brute force`, `implementation`, `math`, `*1200` |
-| 7 | [vanya_and_lanterns.rs](src/archive/1200/vanya_and_lanterns.rs) | https://codeforces.com/problemset/problem/492/B | `binary search`, `implementation`, `math`, `sortings`, `*1200` |
-| 8 | [worms.rs](src/archive/1200/worms.rs) | https://codeforces.com/problemset/problem/474/B | `binary search`, `implementation`, `*1200` |
-| 9 | [xxxxx.rs](src/archive/1200/xxxxx.rs) | https://codeforces.com/problemset/problem/1364/A | `brute force`, `data structures`, `number theory`, `two pointers`, `*1200` |
+| 7 | [pashmak_and_garden.rs](src/archive/1200/pashmak_and_garden.rs) | https://codeforces.com/problemset/problem/459/A | `implementation`, `*1200` |
+| 8 | [same_parity_summands.rs](src/archive/1200/same_parity_summands.rs) | https://codeforces.com/problemset/problem/1352/B | `constructive algorithms`, `math`, `*1200` |
+| 9 | [ternary_xor.rs](src/archive/1200/ternary_xor.rs) | https://codeforces.com/problemset/problem/1328/C | `greedy`, `implementation`, `*1200` |
+| 10 | [vanya_and_lanterns.rs](src/archive/1200/vanya_and_lanterns.rs) | https://codeforces.com/problemset/problem/492/B | `binary search`, `implementation`, `math`, `sortings`, `*1200` |
+| 11 | [worms.rs](src/archive/1200/worms.rs) | https://codeforces.com/problemset/problem/474/B | `binary search`, `implementation`, `*1200` |
+| 12 | [xxxxx.rs](src/archive/1200/xxxxx.rs) | https://codeforces.com/problemset/problem/1364/A | `brute force`, `data structures`, `number theory`, `two pointers`, `*1200` |
 
 </details>
 
