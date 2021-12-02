@@ -135,16 +135,19 @@
 | --- | --------- | ------------ | ---- |
 | 1 | [alternating_subsequence.rs](src/archive/1200/alternating_subsequence.rs) | https://codeforces.com/problemset/problem/1343/C | `dp`, `greedy`, `two pointers`, `*1200` |
 | 2 | [bersu_ball.rs](src/archive/1200/bersu_ball.rs) | https://codeforces.com/problemset/problem/489/B | `dfs and similar`, `dp`, `graph matchings`, `greedy`, `sortings`, `two pointers`, `*1200` |
-| 3 | [cheap_travel.rs](src/archive/1200/cheap_travel.rs) | https://codeforces.com/problemset/problem/466/A | `implementation`, `*1200` |
-| 4 | [flipping_game.rs](src/archive/1200/flipping_game.rs) | https://codeforces.com/problemset/problem/327/A | `brute force`, `dp`, `implementation`, `*1200` |
-| 5 | [kth_not_divisible_by_n.rs](src/archive/1200/kth_not_divisible_by_n.rs) | https://codeforces.com/problemset/problem/1352/C | `binary search`, `math`, `*1200` |
-| 6 | [odd_selection.rs](src/archive/1200/odd_selection.rs) | https://codeforces.com/problemset/problem/1363/A | `brute force`, `implementation`, `math`, `*1200` |
-| 7 | [pashmak_and_garden.rs](src/archive/1200/pashmak_and_garden.rs) | https://codeforces.com/problemset/problem/459/A | `implementation`, `*1200` |
-| 8 | [same_parity_summands.rs](src/archive/1200/same_parity_summands.rs) | https://codeforces.com/problemset/problem/1352/B | `constructive algorithms`, `math`, `*1200` |
-| 9 | [ternary_xor.rs](src/archive/1200/ternary_xor.rs) | https://codeforces.com/problemset/problem/1328/C | `greedy`, `implementation`, `*1200` |
-| 10 | [vanya_and_lanterns.rs](src/archive/1200/vanya_and_lanterns.rs) | https://codeforces.com/problemset/problem/492/B | `binary search`, `implementation`, `math`, `sortings`, `*1200` |
-| 11 | [worms.rs](src/archive/1200/worms.rs) | https://codeforces.com/problemset/problem/474/B | `binary search`, `implementation`, `*1200` |
-| 12 | [xxxxx.rs](src/archive/1200/xxxxx.rs) | https://codeforces.com/problemset/problem/1364/A | `brute force`, `data structures`, `number theory`, `two pointers`, `*1200` |
+| 3 | [boats_competition.rs](src/archive/1200/boats_competition.rs) | https://codeforces.com/problemset/problem/1399/C | `brute force`, `greedy`, `two pointers`, `*1200` |
+| 4 | [cheap_travel.rs](src/archive/1200/cheap_travel.rs) | https://codeforces.com/problemset/problem/466/A | `implementation`, `*1200` |
+| 5 | [flipping_game.rs](src/archive/1200/flipping_game.rs) | https://codeforces.com/problemset/problem/327/A | `brute force`, `dp`, `implementation`, `*1200` |
+| 6 | [kth_not_divisible_by_n.rs](src/archive/1200/kth_not_divisible_by_n.rs) | https://codeforces.com/problemset/problem/1352/C | `binary search`, `math`, `*1200` |
+| 7 | [make_it_good.rs](src/archive/1200/make_it_good.rs) | https://codeforces.com/problemset/problem/1385/C | `greedy`, `*1200` |
+| 8 | [odd_selection.rs](src/archive/1200/odd_selection.rs) | https://codeforces.com/problemset/problem/1363/A | `brute force`, `implementation`, `math`, `*1200` |
+| 9 | [pashmak_and_garden.rs](src/archive/1200/pashmak_and_garden.rs) | https://codeforces.com/problemset/problem/459/A | `implementation`, `*1200` |
+| 10 | [same_differences.rs](src/archive/1200/same_differences.rs) | https://codeforces.com/problemset/problem/1520/D | `data structures`, `hashing`, `math`, `*1200` |
+| 11 | [same_parity_summands.rs](src/archive/1200/same_parity_summands.rs) | https://codeforces.com/problemset/problem/1352/B | `constructive algorithms`, `math`, `*1200` |
+| 12 | [ternary_xor.rs](src/archive/1200/ternary_xor.rs) | https://codeforces.com/problemset/problem/1328/C | `greedy`, `implementation`, `*1200` |
+| 13 | [vanya_and_lanterns.rs](src/archive/1200/vanya_and_lanterns.rs) | https://codeforces.com/problemset/problem/492/B | `binary search`, `implementation`, `math`, `sortings`, `*1200` |
+| 14 | [worms.rs](src/archive/1200/worms.rs) | https://codeforces.com/problemset/problem/474/B | `binary search`, `implementation`, `*1200` |
+| 15 | [xxxxx.rs](src/archive/1200/xxxxx.rs) | https://codeforces.com/problemset/problem/1364/A | `brute force`, `data structures`, `number theory`, `two pointers`, `*1200` |
 
 </details>
 
