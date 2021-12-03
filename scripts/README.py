@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 def extract(path: pathlib.Path) -> dict:
     with open(path, 'r') as f:
-        link = f.readline().lstrip('//').strip()
+        *flag, link = f.readline().lstrip('//').strip().split()
         soup = BeautifulSoup(requests.get(link).content, 'lxml')
         tags = tuple(
             tag.text.strip()
@@ -18,6 +18,7 @@ def extract(path: pathlib.Path) -> dict:
             'path': path.relative_to(root).as_posix(),
             'link': link,
             'tags': tags,
+            'pass': not flag,
         }
 
 
@@ -27,14 +28,15 @@ cache = json.loads(cache_path.read_text()) if cache_path.exists() else dict()
 readme = '# [Codeforces](https://codeforces.com/)\n## Difficulty\n'
 for directory in sorted((root/'src'/'archive').iterdir(), key=lambda p: int(p.name)):
     readme += f'<details>\n<summary>{directory.name}</summary>\n\n' \
-        '| ith | Rust Code | Problem Link | Tags |\n' \
-        '| --- | --------- | ------------ | ---- |\n'
+        '| ith | Rust Code | Problem Link | Tags | Note |\n' \
+        '| --- | --------- | ------------ | ---- | ------ |\n'
     for ith, path in enumerate(directory.iterdir()):
         key = path.relative_to(root).relative_to('src', 'archive').as_posix()
         if key not in cache:
             cache[key] = extract(path)
         readme += f'| {ith+1} | [{cache[key]["name"]}]({cache[key]["path"]}) ' \
-            f'| {cache[key]["link"]} | `{"`, `".join(cache[key]["tags"])}` |\n'
+            f'| {cache[key]["link"]} | `{"`, `".join(cache[key]["tags"])}` ' \
+            f'| {"" if cache[key].get("pass", True) else "×"} |\n'
     readme += '\n</details>\n\n\n'
 cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=4))
 (root/'README.md').write_text(readme.rstrip()+'\n')
