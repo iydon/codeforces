@@ -163,3 +163,13 @@
 | 1 | [boredom.rs](src/archive/1500/boredom.rs) | https://codeforces.com/problemset/problem/455/A | `dp`, `*1500` |  |
 
 </details>
+
+
+<details>
+<summary>2000</summary>
+
+| ith | Rust Code | Problem Link | Tags | Note |
+| --- | --------- | ------------ | ---- | ------ |
+| 1 | [not_quite_lee.rs](src/archive/2000/not_quite_lee.rs) | https://codeforces.com/contest/1610/problem/D | `combinatorics`, `dp`, `math`, `number theory`, `*2000` | × |
+
+</details>
