@@ -161,6 +161,16 @@
 
 
 <details>
+<summary>1300</summary>
+
+| ith | Rust Code | Problem Link | Tags | Note |
+| --- | --------- | ------------ | ---- | ------ |
+| 1 | [iq_test.rs](src/archive/1300/iq_test.rs) | https://codeforces.com/problemset/problem/25/A | `brute force`, `*1300` |  |
+
+</details>
+
+
+<details>
 <summary>1500</summary>
 
 | ith | Rust Code | Problem Link | Tags | Note |
