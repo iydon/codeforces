@@ -1,6 +1,4 @@
-// ? https://codeforces.com/problemset/problem/1354/B
-use std::collections::HashMap;
-
+// https://codeforces.com/problemset/problem/1354/B
 pub struct Input<I: std::io::BufRead> {
     std: I,
     buffer: Vec<String>,
@@ -62,40 +60,21 @@ impl Problem {
         return Problem {};
     }
 
-    fn solve(&self, numbers: Vec<u8>) -> usize {
-        let mut counter = HashMap::with_capacity(3);
-        for number in numbers.iter() {
-            *counter.entry(*number).or_insert(0) += 1;
-        }
-        if counter.len() != 3 {
-            return 0;
-        }
-        let (mut left, mut right) = (0, numbers.len() - 1);
-        macro_rules! select {
-            (left, $n:ident) => {{
-                *counter.entry($n).or_insert(0) -= 1;
+    fn solve(&self, numbers: Vec<usize>) -> usize {
+        let mut count = usize::MAX;
+        let mut left = 0;
+        let mut index = [0, 0, 0];
+        for right in 0..numbers.len() {
+            index[numbers[right]] += 1;
+            while index[numbers[left]] > 1 {
+                index[numbers[left]] -= 1;
                 left += 1;
-            }};
-            (right, $n:ident) => {{
-                *counter.entry($n).or_insert(0) -= 1;
-                right -= 1;
-            }};
+            }
+            if index[0] != 0 && index[1] != 0 && index[2] != 0 {
+                count = count.min(right - left + 1);
+            }
         }
-        while left + 2 < right {
-            let (nl, nr) = (numbers[left], numbers[right]);
-            match (counter[&nl] > 1, counter[&nr] > 1) {
-                (true, true) => {
-                    match counter[&nl] < counter[&nr] {
-                        true => select!(right, nr),
-                        false => select!(left, nl),
-                    };
-                }
-                (true, false) => select!(left, nl),
-                (false, true) => select!(right, nr),
-                (false, false) => break,
-            };
-        }
-        return right - left + 1;
+        return if count == usize::MAX { 0 } else { count };
     }
 
     fn via_io<I, O>(self, mut stdin: I, mut stdout: O)
@@ -105,7 +84,7 @@ impl Problem {
     {
         let mut input = Input::new(&mut stdin);
         for _ in 0..input.scalar::<u16>() {
-            let numbers = input.text().chars().map(|c| c as u8 - 48).collect();
+            let numbers = input.text().chars().map(|c| c as usize - 49).collect();
             writeln!(stdout, "{}", self.solve(numbers)).unwrap();
         }
     }
