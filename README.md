@@ -165,7 +165,10 @@
 
 | ith | Rust Code | Problem Link | Tags | Note |
 | --- | --------- | ------------ | ---- | ------ |
-| 1 | [iq_test.rs](src/archive/1300/iq_test.rs) | https://codeforces.com/problemset/problem/25/A | `brute force`, `*1300` |  |
+| 1 | [cut_ribbon.rs](src/archive/1300/cut_ribbon.rs) | https://codeforces.com/problemset/problem/189/A | `brute force`, `dp`, `*1300` |  |
+| 2 | [iq_test.rs](src/archive/1300/iq_test.rs) | https://codeforces.com/problemset/problem/25/A | `brute force`, `*1300` |  |
+| 3 | [registration_system.rs](src/archive/1300/registration_system.rs) | https://codeforces.com/problemset/problem/4/C | `data structures`, `hashing`, `implementation`, `*1300` |  |
+| 4 | [t_primes.rs](src/archive/1300/t_primes.rs) | https://codeforces.com/problemset/problem/230/B | `binary search`, `implementation`, `math`, `number theory`, `*1300` |  |
 
 </details>
 
